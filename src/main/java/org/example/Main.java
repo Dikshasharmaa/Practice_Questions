@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // Linear Search
         // Take an array as input from user
 
         Scanner sc = new Scanner (System.in);
