@@ -19,7 +19,10 @@ public class Main {
         commonString str = new commonString();
         String result = str.longestSubstring("abcdef", "zabxcdef");
         System.out.println(result);
-        
+
+        Collections linkedL = new Collections();
+        linkedL.LinkList();
+
         
     }
 }
