@@ -1,8 +1,6 @@
 package org.example;
 import java.util.*;
 
-import org.w3c.dom.Node;
-
 public class Collections {
 
     public void LinkList(){
@@ -14,17 +12,20 @@ public class Collections {
         list.remove(0);
 
         System.out.println(list);   
-
-    }
-// Reverse link list through iterative way
-    // public void reverselist(){
-    //     Node preNode = head;
-    //     Node currNode = head.next;
-    //     while(currNode !=null){
-    //         Node newNode = currNode.next;
-    //         currNode.next = prev;
-    //         prevNode = currNode;
-    //         currNode = newNode;
+                
+                    }
+                // Reverse link list through iterative way
+                    // public void reverselist(){
+                    //     Node preNode = head;
+                    //     Node currNode = head.next;
+                    //     while(currNode !=null){
+                    //         Node newNode = currNode.next;
+                    //         currNode.next = prev;
+                    //         prevNode = currNode;
+                    //         currNode = newNode;
+        
+            
+        
 
     //     }
     //     head.next = null;
@@ -32,6 +33,7 @@ public class Collections {
     // }
 
     // }
+
 
 
 }

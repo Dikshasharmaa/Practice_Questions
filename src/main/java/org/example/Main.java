@@ -23,6 +23,9 @@ public class Main {
         Collections linkedL = new Collections();
         linkedL.LinkList();
 
+        Search search = new Search();
+        search.age();
+
         
     }
 }
