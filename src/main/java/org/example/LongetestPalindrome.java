@@ -10,12 +10,9 @@ public class LongetestPalindrome {
 
 //Write a method to find palindrome
 public boolean isPalindrome(String s){
-    StringBuilder sb = new StringBuilder(str);
+    StringBuilder sb = new StringBuilder(s);
     result = sb.reverse().toString();
-    if(str.equals(sb)){
-        return true;
-    }
-return false;
+    return s.equals(result);
 
 }
 
@@ -30,7 +27,7 @@ public void longestString(){
             }
         }
      }
-     System.out.println(result);
+     System.out.println(output);
 }
     
 }
