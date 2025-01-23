@@ -42,6 +42,9 @@ public class Main {
         LongetestPalindrome longetestPalindrome = new LongetestPalindrome();
         longetestPalindrome.longestString();
 
+        VowelsConstants vowelsConstants = new VowelsConstants();
+        vowelsConstants.check();
+
         
     }
 }
