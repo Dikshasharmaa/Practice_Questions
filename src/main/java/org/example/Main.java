@@ -36,6 +36,9 @@ public class Main {
         CountCharacters count = new CountCharacters();
         count.count();
 
+        Palindrome palindrome = new Palindrome();
+        palindrome.pailndrome();
+
         
     }
 }
