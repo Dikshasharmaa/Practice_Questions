@@ -33,6 +33,9 @@ public class Main {
         Anagrams anagrams = new Anagrams();
         anagrams.anagram();
 
+        CountCharacters count = new CountCharacters();
+        count.count();
+
         
     }
 }
