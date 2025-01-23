@@ -26,6 +26,10 @@ public class Main {
         Search search = new Search();
         search.age();
 
+        Factorial factorial = new Factorial(); 
+        int number = 5; 
+        System.out.println(factorial.fact(number));
+
         
     }
 }
