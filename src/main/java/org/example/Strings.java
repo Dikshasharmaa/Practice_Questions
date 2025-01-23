@@ -4,13 +4,15 @@ public class Strings {
 
     public void StringReverse(){
         //Reversing a String
-        StringBuilder sb = new StringBuilder("hello");
+        String str = "Interview";
+        String reversed = "";
+        StringBuilder sb = new StringBuilder(str);
 
-        for(int i =0; i<sb.length(); i++){
-            sb.reverse();
+        for(int i =str.length()-1; i>=0; i--){
+            reversed += str.charAt(i);
             
         }
-        System.out.println(sb);
+        System.out.println(reversed);
 
 
     }

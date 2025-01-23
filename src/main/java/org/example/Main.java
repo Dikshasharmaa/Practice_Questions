@@ -13,8 +13,8 @@ public class Main {
         // Array2 arr2 = new Array2();
         // arr2.multiDimension();
 
-        // Strings string = new Strings();
-        // string.StringReverse();
+        Strings string = new Strings();
+        string.StringReverse();
 
         commonString str = new commonString();
         String result = str.longestSubstring("abcdef", "zabxcdef");
