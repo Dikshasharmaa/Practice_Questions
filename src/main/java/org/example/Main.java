@@ -30,6 +30,9 @@ public class Main {
         int number = 5; 
         System.out.println(factorial.fact(number));
 
+        Anagrams anagrams = new Anagrams();
+        anagrams.anagram();
+
         
     }
 }
