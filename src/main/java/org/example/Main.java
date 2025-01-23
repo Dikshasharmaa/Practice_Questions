@@ -39,6 +39,9 @@ public class Main {
         Palindrome palindrome = new Palindrome();
         palindrome.pailndrome();
 
+        LongetestPalindrome longetestPalindrome = new LongetestPalindrome();
+        longetestPalindrome.longestString();
+
         
     }
 }
