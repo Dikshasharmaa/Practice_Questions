@@ -48,6 +48,12 @@ public class Main {
         BuubleSort buubleSort = new BuubleSort();
         buubleSort.sort();
 
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.Ssort();
+
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.Isort();
+
         
     }
 }
