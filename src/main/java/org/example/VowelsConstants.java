@@ -15,11 +15,7 @@ public class VowelsConstants {
                 constants++;
 
             }
-            
-               
-                
-
-            
+             
             
         }
         System.out.println("Vowels"+ vowels);

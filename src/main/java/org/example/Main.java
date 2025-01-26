@@ -45,6 +45,9 @@ public class Main {
         VowelsConstants vowelsConstants = new VowelsConstants();
         vowelsConstants.check();
 
+        BuubleSort buubleSort = new BuubleSort();
+        buubleSort.sort();
+
         
     }
 }
