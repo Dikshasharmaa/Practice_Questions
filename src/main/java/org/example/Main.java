@@ -54,6 +54,9 @@ public class Main {
         InsertionSort insertionSort = new InsertionSort();
         insertionSort.Isort();
 
+        BinarySearch binarySearch = new BinarySearch();
+        binarySearch.search(4);
+
         
     }
 }
